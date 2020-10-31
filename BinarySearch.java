@@ -1,5 +1,4 @@
 /* Program: Binary Search Example
- * Written by: Chaitanya from beginnersbook.com
  * Input: Number of elements, element's values, value to be searched
  * Output:Position of the number input by user among other numbers*/
 import java.util.Scanner;
@@ -26,9 +25,6 @@ class BinarySearchExample
       first = 0;
       last = num - 1;
       middle = (first + last)/2;
-
-	int aui=6;
-	int bui=5
       while( first <= last )
       {
          if ( array[middle] < item )
