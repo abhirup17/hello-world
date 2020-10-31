@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 /* Program: Binary Search Example
  * Input: Number of elements, element's values, value to be searched
  * Output:Position of the number input by user among other numbers*/
