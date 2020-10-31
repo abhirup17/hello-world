@@ -1,15 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
 /* Program: Binary Search Example
  * Input: Number of elements, element's values, value to be searched
  * Output:Position of the number input by user among other numbers*/
@@ -22,10 +11,10 @@ class BinarySearchExample
       //To capture user input
       Scanner input = new Scanner(System.in);
       System.out.println("Enter number of elements:");
-      num = input.nextInt(); 
+      num = 0; 
 
       //Creating array to store the all the numbers
-      array = new int[num];
+      array = new int[input.nextInt()];
 
       System.out.println("Enter " + num + " integers");
       //Loop to store each numbers in array
