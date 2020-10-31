@@ -48,6 +48,8 @@ class BinarySearchExample
          }
          else
          {
+            printf("helo");
+               
              last = middle - 1;
          }
          middle = (first + last)/2;
